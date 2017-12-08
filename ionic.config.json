@@ -1,0 +1,8 @@
+{
+  "name": "ejeblank",
+  "app_id": "4fe1c238",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

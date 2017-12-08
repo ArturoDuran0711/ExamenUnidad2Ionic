@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-nav>
+        <ion-title>
+            Other Page
+        </ion-title>
+    </ion-nav>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+            <h1>Datos del nuevo usuario</h1>
+            <ion-img width="80" height="80" src="http://www.asalsido.org/asalsido/images/registro.png"></ion-img>
+        </ion-card-header>
+        <ion-card-content>
+            <h4>Nombre: {{params.data.nombre}}</h4><br>
+            <h4>Apellido Paterno: {{params.data.apepaterno}}</h4><br>
+            <h4>Apellido Materno: {{params.data.apmaterno}}</h4><br>
+            <h4>Curp: {{params.data.curp}}</h4><br>
+            <h4>Email: {{params.data.email}}</h4><br>
+            <h4>Fecha Nac: {{params.data.curp[8]}}{{params.data.curp[9]}}/{{params.data.curp[6]}}{{params.data.curp[7]}}/{{params.data.curp[4]}}{{params.data.curp[5]}}</h4><br>
+            <h4>Edad: {{params.data.curp[4]}}{{params.data.curp[5]}}</h4><br>
+            <h4>Sexo: {{params.data.curp[10]}}</h4><br>
+            <h4>Estado: {{params.data.curp[11]}}{{params.data.curp[12]}}</h4>
+            <button ion-button block navPop>Regresar</button>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
